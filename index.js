@@ -12,9 +12,8 @@ function emoji(id) {
     return bot.emojis.get(id).toString();
 }
 
-var members = ['PyxelPranav#7513', 'trev#1111'];
-var limes = ['100', 'infinite'];
-
+var members = ['PyxelPranav#7513', 'trev#1111', 'Miamiala#2369'];
+var limes = ['100', 'infinite', '1'];
 bot.on('message', msg=>{
     if(msg.content === "lgb") {
         msg.reply('Hey! My prefix is ,');
