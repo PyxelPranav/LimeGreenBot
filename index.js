@@ -47,7 +47,7 @@ bot.on('message', msg=>{
             msg.reply("You have " + limes[check] + " " + emoji("623626499706191872"));
         }
     }
-    if(msg.content === ",commands" or msg.content === ",help"){
+    if(msg.content === ",commands" || msg.content === ",help"){
         msg.channel.send("lgb - to check if i'm alive; ,underprior - you expire; ,event - get to know bout the next event; ,balance - check ur balance");
     }
 })
