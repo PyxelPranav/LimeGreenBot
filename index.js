@@ -12,8 +12,13 @@ function emoji(id) {
     return bot.emojis.get(id).toString();
 }
 
-var members = ['PyxelPranav#7513', 'trev#1111', 'Miamiala#2369'];
-var limes = ['100', 'infinite', '1'];
+var members = ['PyxelPranav#7513', 'trev#1111', 'hippieFRESH#7339', 'KARMA#6969',
+'Effot#7100', 'Envolant#2127', 'AJSonic(RockstarVitalPro)#8359', 'ѕaraн#6969', 
+'Snapple#5690', 
+':watermelon:⋆:hibiscus:𝓢𝖍ค𝔡𝖔ฬ_̾Ꮗ𝖆𝕣 г𝖎Ꭷ𝓻:hibiscus:⋆:watermelon:#0212', 'Dino#1700', 
+'Dank SpoopyWoodwork#5550'];
+var limes = ['100', 'infinite', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5'];
+
 bot.on('message', msg=>{
     if(msg.content === "lgb") {
         msg.reply('Hey! My prefix is ,');
@@ -26,7 +31,7 @@ bot.on('message', msg=>{
     }
     if(msg.content === ",balance") {
         console.log(msg.member.user.tag);
-
+        
         var check;
 
         for(i in members) {
