@@ -17,7 +17,7 @@ var members = ['PyxelPranav#7513', 'trev#1111', 'hippieFRESH#7339', 'KARMA#6969'
 'Snapple#5690', 
 ':watermelon:⋆:hibiscus:𝓢𝖍ค𝔡𝖔ฬ_̾Ꮗ𝖆𝕣 г𝖎Ꭷ𝓻:hibiscus:⋆:watermelon:#0212', 'Dino#1700', 
 'Dank SpoopyWoodwork#5550'];
-var limes = ['100', 'infinite', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5'];
+var limes = ['101', 'infinite', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5'];
 
 bot.on('message', msg=>{
     if(msg.content === "lgb") {
