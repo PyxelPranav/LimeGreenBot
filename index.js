@@ -27,7 +27,7 @@ bot.on('message', msg=>{
         msg.reply('you expire ( ͡° ͜ʖ ͡°)');
     }
     if(msg.content === ",event") {
-        msg.reply('Our next event(US) is on Monday, 21st October 7:30 PM EST/4:30 PM PST. **Reward for coming: 5 **' + emoji("623626499706191872"));
+        msg.reply('Our next event(EU) is on Tuesday, 22nd October 12 PM EST/3 PM EST/8 PM BST. **Reward for coming: 5 **' + emoji("623626499706191872"));
     }
     if(msg.content === ",balance") {
         console.log(msg.member.user.tag);
